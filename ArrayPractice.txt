@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ArrayPractice(){
+
+public static void main(String[] args){
+	Scanner sc = new Scanner();
+	int[] arr = new int[5];
+	
+	for(int index =0; index<arr.length ; index++){
+	arr[index] = sc.nextInt();
+	}
+
+}
+}
